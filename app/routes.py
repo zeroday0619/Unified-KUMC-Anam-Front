@@ -26,12 +26,8 @@ async def get_authenticated_client(username: str, password: str):
     try:
         # Initialize with credentials (kumc package uses environment variables by default,
         # but we need to set them programmatically)
-        import os
-        os.environ["ANAM_USERNAME"] = username
-        os.environ["ANAM_PASSWORD"] = password
-        
         # Re-create client with new env vars
-        client = KUMCClient()
+        client = KUMCClient(username=username, password=password)
         await client.sign_in()
         yield client
     finally:

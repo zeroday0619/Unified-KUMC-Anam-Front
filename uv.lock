@@ -416,7 +416,7 @@ wheels = [
 
 [[package]]
 name = "kumc"
-version = "0.1.0"
+version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
@@ -430,9 +430,9 @@ dependencies = [
     { name = "soupsieve" },
     { name = "wheel" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/93/a3/0b4721011c5fb55e4d6269b99bc43b1ea2f757c3d4e0b8e6e5e0a6ff16f2/kumc-0.1.0.tar.gz", hash = "sha256:28a47de448008843d54e85e74ee1af5fbb6a86bd8f381913338ce572a12bada8", size = 15115, upload-time = "2024-09-24T06:34:44.606Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8e/d2/0f30b0029c8963f304f377df247ee6a982b8c013b7a6b3f4fc90882bf5de/kumc-0.1.1.tar.gz", hash = "sha256:5b2c72cac7b127eda6ba16a080826fec92862a634eb48fd9c694a84a0b81d105", size = 19114, upload-time = "2026-01-09T08:30:47.096Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/73/6d6286651d34c69b0b09098f3ed5b742d534af0c2d0becd08988d64629fe/kumc-0.1.0-py3-none-any.whl", hash = "sha256:ce8c6e08f8a48f7602a58b31992b78587c1ac4fe3d339657becea76d29f4a4aa", size = 14030, upload-time = "2024-09-24T06:34:43.415Z" },
+    { url = "https://files.pythonhosted.org/packages/cd/c9/1b28984d1579dfaec7b86fbc075781e8ffb8baf9bb50cc9fdd6b88969105/kumc-0.1.1-py3-none-any.whl", hash = "sha256:b62c24573b990582a8b6dd37e91b25bd8c15e32020e48342237364869a39d476", size = 14141, upload-time = "2026-01-09T08:30:46.138Z" },
 ]
 
 [[package]]
@@ -870,7 +870,7 @@ requires-dist = [
     { name = "argon2-cffi", specifier = ">=23.1.0" },
     { name = "fastapi", extras = ["standard"], specifier = ">=0.128.0" },
     { name = "jinja2", specifier = ">=3.1.0" },
-    { name = "kumc", specifier = ">=0.1.0a0" },
+    { name = "kumc", specifier = ">=0.1.1" },
     { name = "passlib", extras = ["argon2"], specifier = ">=1.7.4" },
     { name = "pydantic-settings", specifier = ">=2.0.0" },
     { name = "python-jose", extras = ["cryptography"], specifier = ">=3.3.0" },

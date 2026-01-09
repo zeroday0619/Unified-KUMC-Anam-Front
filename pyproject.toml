@@ -5,7 +5,7 @@ description = "Korea University Anam Hospital Medical Portal - FastAPI Backend w
 requires-python = ">=3.14"
 dependencies = [
     "fastapi[standard]>=0.128.0",
-    "kumc>=0.1.0a",
+    "kumc>=0.1.1",
     "python-jose[cryptography]>=3.3.0",
     "passlib[argon2]>=1.7.4",
     "argon2-cffi>=23.1.0",
