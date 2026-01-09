@@ -1,4 +1,4 @@
-# KUMC Anam Medical Portal
+# KUMC Anam Medical Portal (UnOffical)
 
 고려대학교 안암병원 진료 정보 포털 - FastAPI 백엔드 + 반응형 프론트엔드
 
