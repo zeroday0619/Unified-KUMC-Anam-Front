@@ -1,0 +1,15 @@
+[project]
+name = "unified-kumc-anam-front"
+version = "0.1.0"
+description = "Korea University Anam Hospital Medical Portal - FastAPI Backend with Responsive Frontend"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "kumc>=0.1.0a",
+    "python-jose[cryptography]>=3.3.0",
+    "passlib[argon2]>=1.7.4",
+    "argon2-cffi>=23.1.0",
+    "python-multipart>=0.0.20",
+    "jinja2>=3.1.0",
+    "pydantic-settings>=2.0.0",
+]
