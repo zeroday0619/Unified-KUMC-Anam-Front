@@ -22,12 +22,11 @@ async def get_authenticated_client(username: str, password: str):
     """
     Get an authenticated KUMC client as async context manager.
     """
-    client = KUMCClient()
+    client = KUMCClient(username, password)
     try:
         # Initialize with credentials (kumc package uses environment variables by default,
         # but we need to set them programmatically)
         # Re-create client with new env vars
-        client = KUMCClient(username=username, password=password)
         await client.sign_in()
         yield client
     finally:
