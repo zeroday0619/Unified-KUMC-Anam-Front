@@ -158,17 +158,6 @@ Unified-KUMC-Anam-Front/
 - **Authentication**: JWT (python-jose)
 - **KUMC API**: [kumc](https://pypi.org/project/kumc/) (anamSDK)
 
-## 스크린샷
-
-### 로그인 화면
-- 깔끔한 로그인 폼
-- 다크/라이트 테마 지원
-
-### 대시보드
-- 사용자 정보 카드
-- 메뉴 네비게이션
-- 각 기능별 섹션
-
 ## 주의사항
 **Disclaimer**: 본 프로젝트는 연구 목적으로 개발되었으며, 사용으로 인해 발생하는 어떠한 문제에 대해서도 개발자는 책임을 지지 않습니다.
 ## 라이선스
